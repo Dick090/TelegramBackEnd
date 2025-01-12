@@ -11,6 +11,12 @@ const DailyShema = new mongoose.Schema({
   link3: { type: String, default: "" },
   link3note: { type: String, default: "" }, 
   link3amount: { type: String, default: "" }, 
+  link4: { type: String, default: "" },
+  link4note: { type: String, default: "" }, 
+  link4amount: { type: String, default: "" }, 
+  link5: { type: String, default: "" },
+  link5note: { type: String, default: "" }, 
+  link5amount: { type: String, default: "" }, 
   taksnumber: { type: String, default: "" }, 
 
 });
